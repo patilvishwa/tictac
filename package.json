@@ -55,6 +55,7 @@
     "react-tap-event-plugin": "2.0.1"
   },
   "scripts": {
+    "set" : "set GRAPHQL_ENDPOINT=https://api.graph.cool/relay/v1/cjbypqgxl1vkd0126pa4alp1p",
     "start": "node scripts/start.js",
     "build": "node scripts/build.js",
     "test": "node scripts/test.js --env=jsdom"
