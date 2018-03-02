@@ -48,14 +48,17 @@
     "whatwg-fetch": "1.0.0"
   },
   "dependencies": {
+    "konva": "^1.7.6",
     "material-ui": "0.16.7",
     "react": "^15.4.2",
     "react-dom": "^15.4.2",
+    "react-konva": "^1.6.6",
     "react-router": "^3.0.2",
-    "react-tap-event-plugin": "2.0.1"
+    "react-tap-event-plugin": "2.0.1",
+    "styled-components": "^3.1.6"
   },
   "scripts": {
-    "set" : "set GRAPHQL_ENDPOINT=https://api.graph.cool/relay/v1/cjbypqgxl1vkd0126pa4alp1p",
+    "set": "set GRAPHQL_ENDPOINT=https://api.graph.cool/relay/v1/cjbypqgxl1vkd0126pa4alp1p",
     "start": "node scripts/start.js",
     "build": "node scripts/build.js",
     "test": "node scripts/test.js --env=jsdom"
@@ -85,9 +88,7 @@
     }
   },
   "babel": {
-    "plugins": [
-     
-    ],
+    "plugins": [],
     "presets": [
       "react-app"
     ]
